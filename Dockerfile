@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:25
 
 # Because I'm not brave enough to write vanilla /bin/sh
 RUN apk add bash
